@@ -75,21 +75,19 @@ custom_targets.json
 
 ```bash
 git clone https://github.com/yourusername/wayback-policy-scraper.git
-cd wayback-policy-scraper```
+cd wayback-policy-scraper
 
----
-
+```
 ## 2. Python Version
 
-Requires:
+```Requires:
 
-```
 Python 3.9+
+
+
 ```
-
----
-
 ## 3. Install Required Packages
+
 
 Run:
 
@@ -103,7 +101,7 @@ Optional (recommended for improved text extraction):
 pip install readability-lxml lxml
 ```
 
-
+---
 
 # How to Run
 
@@ -122,7 +120,7 @@ The GUI window will open.
 Before downloading a snapshot, the program checks whether the folder already exists:
 
 ```
-out/platform_slug/page_slug/YYYYMMDD_HHMMSS/
+out/platform/page/YYYYMMDD_HHMMSS/
 ```
 
 If the directory exists:
